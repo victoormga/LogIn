@@ -1,0 +1,23 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "This is a basic Project, hopefully it fulfills the requirements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://token1@github.com/victoormga/LogIn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoormga/LogIn/issues"
+  },
+  "homepage": "https://github.com/victoormga/LogIn#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
