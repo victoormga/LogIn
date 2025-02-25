@@ -17,12 +17,13 @@ Asegúrate de tener instalado lo siguiente:
   ```bash
   git clone https://github.com/victoormga/LogIn.git
   cd LogIn
-  npm install
-
-2. Ejecutar:
 
   ```bash
+  npm install
   node server.js
+  http://localhost:3000 & http://localhost:8080
+
+
 
 ## Ejecución con Docker desde terminal.
 
@@ -30,4 +31,5 @@ Asegúrate de tener instalado lo siguiente:
   cd LogIn
   docker build -t login .
   docker run -p 3000:3000 -p 8080:8080 login  
-    
+  (Primer vez, si se cierra el servicio con ctrl + C, se podrá ejecutar con docker run login)
+  http://localhost:3000 & http://localhost:8080
